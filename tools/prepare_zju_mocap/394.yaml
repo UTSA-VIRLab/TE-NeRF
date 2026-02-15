@@ -1,0 +1,11 @@
+dataset:
+  zju_mocap_path: ../../../../home/sadia/Downloads/
+  subject: '394'
+  sex: 'neutral'
+
+training_view: 22
+max_frames: 475
+
+output:
+  dir: ../../dataset/zju_mocap/394/zju_test/
+  name: cam_{training_view}
